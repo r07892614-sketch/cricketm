@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MALIK MUMBAI™ • Official</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins",sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:radial-gradient(circle at top,#1f2937,#0f172a,#020617);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  color:white;
+}
+
+/* CARD BOX */
+.card{
+  width:100%;
+  max-width:430px;
+  background:rgba(255,255,255,0.06);
+  padding:30px 24px;
+  border-radius:22px;
+  text-align:center;
+  border:1px solid rgba(255,255,255,0.15);
+  backdrop-filter:blur(16px);
+  box-shadow:0 10px 35px rgba(0,0,0,0.85);
+}
+
+/* CIRCLE IMAGE OUTER RING */
+.circle-ring{
+  width:170px;
+  height:170px;
+  border-radius:50%;
+  padding:6px;
+  margin:auto;
+  margin-bottom:18px;
+  background:conic-gradient(#ffdf57,#ff7b00,#ff0051,#00ffd0,#ffdf57);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow:0 0 25px rgba(0,0,0,0.7);
+}
+
+/* INNER CIRCLE IMAGE */
+.circle-inner{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  overflow:hidden;
+  background:#000;
+}
+
+.circle-inner img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* TITLE */
+.title{
+  font-size:1.7rem;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-bottom:6px;
+  background:linear-gradient(90deg,#ffdf57,#ff8f00);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* SUBSCRIBERS */
+.subscribers{
+  font-size:0.95rem;
+  font-weight:600;
+  color:#93d2ff;
+  margin-bottom:14px;
+}
+
+/* RECORD TEXT */
+.record{
+  font-size:1rem;
+  margin-top:10px;
+  margin-bottom:18px;
+  line-height:1.5;
+}
+.record span{
+  color:#4effb4;
+  font-weight:700;
+}
+
+/* JOIN BUTTON */
+.btn{
+  display:block;
+  width:100%;
+  padding:14px;
+  text-decoration:none;
+  text-align:center;
+  font-size:1rem;
+  font-weight:700;
+  border-radius:999px;
+  background:linear-gradient(90deg,#00c6ff,#0072ff);
+  color:white;
+  letter-spacing:0.7px;
+  box-shadow:0 8px 22px rgba(0,0,0,0.9);
+  transition:0.15s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+/* FOOTNOTE */
+.note{
+  margin-top:14px;
+  opacity:0.75;
+  font-size:0.7rem;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+  <!-- PROFILE CIRCLE IMAGE -->
+  <div class="circle-ring">
+    <div class="circle-inner">
+      <!-- yaha apni image ka naam/URL dalo -->
+      <img src="logo.jpg" alt="Malik Mumbai Logo">
+    </div>
+  </div>
+
+  <div class="title">MALIK MUMBAI™</div>
+
+  <div class="subscribers">22 647 subscribers</div>
+
+  <!-- <div class="record">
+    A Leading Name In<br>
+    <span>Cricket Analytical Market</span><br>
+    Trusted Results • Premium Calls
+  </div> -->
+
+  <!-- JOIN BUTTON USING <a> TAG -->
+  <a class="btn" href="https://t.me/+pxLGxFQ7pps0Yzc1" target="_blank">
+    JOIN CHANNEL
+  </a>
+<!-- 
+  <div class="note">
+    Educational predictions only. We do not promote betting or gambling.
+  </div> -->
+
+</div>
+
+</body>
+</html>
